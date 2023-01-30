@@ -17,6 +17,8 @@ function factorial(n) {
 
   // using recursion
 
+  // if (n <= 1) return 1;
+
   // return n * factorial(n - 1);
 }
 
@@ -24,4 +26,4 @@ function factorial(n) {
 
 // const factorial = n => (n === 0 ? 1 : n * factorial(n - 1))
 
-// console.log(factorial(4));
+console.log(factorial(4));
