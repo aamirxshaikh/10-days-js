@@ -1,7 +1,5 @@
-function main() {
+function calculate(r) {
   // Write your code here. Read input using 'readLine()' and print output using 'console.log()'.
-
-  let r = readLine();
 
   const PI = Math.PI;
 
@@ -17,3 +15,5 @@ function main() {
 
   console.log(perimeter);
 }
+
+calculate(2.6);
