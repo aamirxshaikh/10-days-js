@@ -1,13 +1,26 @@
 function getLetter(s) {
-  // Write your code here.
-
-  const char = s.charAt(0);
-
-  if (/[aeiou]/.test(char)) return "A";
-  if (/[bcdfg]/.test(char)) return "B";
-  if (/[hjklm]/.test(char)) return "C";
-  
-  return "D";
+  switch (s[0]) {
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+      return "A";
+    case "b":
+    case "c":
+    case "d":
+    case "f":
+    case "g":
+      return "B";
+    case "h":
+    case "j":
+    case "k":
+    case "l":
+    case "m":
+      return "C";
+    default:
+      return "D";
+  }
 }
 
 console.log(getLetter("aamir"));
