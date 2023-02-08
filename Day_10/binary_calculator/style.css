@@ -9,7 +9,14 @@ body {
   font-size: 20px;
 }
 
-#btns button {
+#res input {
+  border: 0;
+  outline: 0;
+  font-size: 20px;
+  background: transparent;
+}
+
+#btns input {
   width: 25%;
   height: 36px;
   font-size: 18px;
